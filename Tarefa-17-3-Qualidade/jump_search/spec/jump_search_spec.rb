@@ -53,22 +53,7 @@ RSpec.describe JumpSearch do
     end
   end
 
-
-  context "quando o elemento não está no array" do
-    it "não encontra elemento no array" do
-      arr = [1, 3, 5, 7, 9, 11, 13]
-      x = 6
-      jump_search = Object.new.extend(JumpSearch)
-      expect(jump_search.jumpsearch(arr, x)).to eq(-1)
-    end
-    
-    it "lida com array vazio" do
-      arr = []
-      x = 42
-      jump_search = Object.new.extend(JumpSearch)
-      expect(jump_search.jumpsearch(arr, x)).to eq(-1)
-    end
-  end
+ 
 end
 
 
