@@ -1,6 +1,7 @@
 
 require_relative '../lib/quick_sort'
 
+
 RSpec.describe "QuickSort" do
   describe " Tests Quick_sort" do
     it "sorts an array" do
