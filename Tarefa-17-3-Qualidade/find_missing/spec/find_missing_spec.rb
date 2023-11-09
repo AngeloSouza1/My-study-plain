@@ -20,5 +20,4 @@ RSpec.describe FindMissing do
     arr = []
     expect(FindMissing.find_missing(arr)).to eq(nil)
   end
-
   end
