@@ -40,20 +40,4 @@ module QuickSort
     end
   end
   
-  arr = [10, 7, 8, 9, 1, 5]
-  n = arr.length
-  
-  # Function call
-  quick_sort(arr, 0, n - 1)
-  
-  # Print the sorted array
-  puts "Sorted Array"
-  arr.each { |num| print "#{num} " }
-  puts
-  
-
-
-
-
-
 end
