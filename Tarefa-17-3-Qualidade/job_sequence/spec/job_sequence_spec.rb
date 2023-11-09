@@ -17,6 +17,5 @@ RSpec.describe JobSequence do
       resultado = JobSequence.schedule_jobs(jobs)
       expect(resultado).to eq(resultado_esperado)
     end
-
    end
 end
