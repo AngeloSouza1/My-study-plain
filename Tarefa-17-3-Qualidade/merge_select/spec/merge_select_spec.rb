@@ -41,7 +41,6 @@ RSpec.describe MergeSelect do
       MergeSelect.mergeSort(reverse_sorted_arr, 0, 4)
       expect(reverse_sorted_arr).to eq(expected_result)
     end
-  
-  
+   
   end
 end
