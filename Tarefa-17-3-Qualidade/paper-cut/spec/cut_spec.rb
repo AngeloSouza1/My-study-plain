@@ -1,5 +1,3 @@
-# spec/cut_spec.rb
-
 require_relative '../lib/cut'
 
 RSpec.describe 'PaperCut' do
